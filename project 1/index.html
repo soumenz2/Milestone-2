@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>PWSkills Blog</title>
+</head>
+<body>
+    <header>
+        <h1>PWSkills Blog</h1>
+        <button id="add-blog-btn">+</button>
+    </header>
+
+    <div class="body-part">
+        <div class="box">
+        <ul id="blog-list">
+            <!-- Blog posts will be dynamically generated here -->
+        </ul>
+        </div>
+   
+    </div>
+    <!-- Add Blog Modal (initially hidden) -->
+    <div id="add-blog-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close-btn" id="close-modal-btn">&times;</span>
+           
+            <form id="add-blog-form" class="element">
+               
+                
+                <input type="text" placeholder="Enter the Title" id="title" required><br>
+                
+                <input type="text" placeholder="Enter Author Name" id="author" required><br>
+           
+                <textarea id="description" placeholder="Write some Description" rows="4" required></textarea><br>
+                
+                
+                <button type="submit" class="submit-button">Add blog</button>
+            </form>
+        </div>
+    </div>
+  
+
+    <script src="./app.js"></script>
+</body>
+</html>

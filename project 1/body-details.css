@@ -1,0 +1,27 @@
+/* body-details.css */
+
+/* Apply styles to center the content */
+body {
+    display: flex;
+    flex-direction: column;
+   
+    height: 100vh; /* Ensures the content is centered vertically as well */
+    margin: 0;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+#heading {
+    text-align: center;
+}
+
+#blog-details {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(237, 232, 241);
+    width: 400px;
+    height: 400px;
+    border: 2px solid red; /* Add a red border */
+    border-radius: 10px; 
+}
